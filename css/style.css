@@ -1,0 +1,199 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap') </estilo>
+
+
+*{
+    .varela-round-regular { font-family: "Varela Round", sans-serif; peso de fuente: 400; estilo de fuente: normal; }
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 120px;
+    height: 50px;
+    font-size: 30px; 
+
+    .tusonrisa {
+        animation: tusonrisa 4s infinite ease-in-out;
+    }
+}
+.colorgris{
+    color: rgb(116, 116, 115);
+}
+
+.ColorSub{
+    color: rgb(39, 40, 41);
+}
+.header{
+    background-color: rgba(2, 2, 2, 0.556);
+    position: sticky;
+    top: 0;
+    
+    
+}
+.listaNav{
+    list-style: none;
+}
+.listaNav .listaLink {
+    text-decoration: none;
+    color: rgb(96, 93, 93);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 85%;
+    text-align: right;
+
+
+}
+ 
+.seccionPrincipal{
+    background-image: url(../assets/img/headerfondo.jpeg);
+    height: 600px;
+    background-size: cover;
+}
+.logo {
+    width: 100px;
+    left: 50%;
+    top: 10px;
+}
+.tarjetas {
+    background-color: rgb(83, 84, 83);
+    font-style: oblique;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content:  space-between;
+    gap:  20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    padding-block-end: 20px;
+    
+  
+    
+
+    .cajita{
+        width: 200px;
+        border: 1px solid black;
+        background-color: rgb(98, 120, 139);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        
+    }
+} 
+.contenedortarjeta {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    
+    }
+
+h3{
+    color: rgb(251, 251, 251);
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+
+.encontranosboton {    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007bff00;
+    color: #000000;
+    border: black solid 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .encontranosboton:hover {
+    background-color: #0057b300;
+  }
+  .tusonrisa{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 2px;
+
+  }
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 0 0 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+  }
+  
+  .column h3 {
+    font-size: 18px;
+  }
+  
+  .column img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .mail-signup {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .mail-signup h3 {
+    margin-bottom: 10px;
+  }
+  
+  .mail-signup input[type="email"] {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .mail-signup button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .column {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
