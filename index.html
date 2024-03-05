@@ -14,17 +14,43 @@
 <body>
     
     <header class="header">
-         <a href="#">
-          <img class="logo" src="./assets/img/logoabicol.log" alt="logo.dental" width="100" height="100">   <!-- Aca ponemos el logo de la pagina-->
-         </a>
         <nav> 
-            <ul class="listaNav">
-                <li><a href="#" class="listaLink">Inicio</a></li>
-                <li><a href="./page/nosotros.html" class="listaLink">Nosotros</a></li>
-                <li><a href="./page/contacto.html" class="listaLink">Contacto</a></li>
-                <li><a href="./page/productos.html" class="listaLink">Productos</a></li>
-                <li><a href="./page/formacion.html" class="listaLink">Formacion</a></li>
-            </ul>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark"">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <img src="./favicon.ico" alt="logo" width="100"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#footer">Encontranos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Implantes</a></li>
+                      <li><a class="dropdown-item" href="#">Protesis</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Blanqueamiento</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="formacion.html" tabindex="-1" aria-disabled="true">Formacion</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
          </nav>
 
     </header>
@@ -38,7 +64,7 @@
             <a class="encontranosboton" href="#footer"> ENCONTRANOS</a>
         </section>
     </main>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hMd8xLz_cNc?si=Qphgjcki4XNzknmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+    <iframe width="100%" height="600" src="https://www.youtube.com/embed/hMd8xLz_cNc?si=Qphgjcki4XNzknmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
   
   
 <div class="contenedortarjeta">
@@ -67,12 +93,12 @@
         <img src="./assets/img/logoabicol.log" alt="logo.dental" width="100" height="100"> 
       </div>
       <div class="column">
-        <h3>Mapa</h3>
+        <h4>Mapa</h4>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.831003958249!2d-58.51893192447603!3d-34.60843465774699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb79a5a4e762d%3A0x4d2d9ecb6e0b0ba!2sABICOL%20dental!5e0!3m2!1ses-419!2sar!4v1706664905368!5m2!1ses-419!2sar" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe>
 
     </div>
       <div class="column">
-        <h3>Redes Sociales</h3>
+        <h4>Redes Sociales</h4>
         <ul>
             <a href="https://www.instagram.com/od.abicol/" target="_blank"><i class="fa-brands fa-instagram"></i></a> <br>
             <a class="logowpp" href="wa.me541159484359" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
@@ -80,7 +106,7 @@
       </div>
     </div>
     <div class="mail-signup">
-      <h3>¡Déjanos tu mail!</h3>
+      <h4>¡Déjanos tu mail!</h4>
       <form>
         <input type="email" placeholder="Correo electrónico">
         <button type="submit">Suscribirse</button>
