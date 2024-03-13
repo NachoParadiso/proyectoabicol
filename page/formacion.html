@@ -4,58 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sucursales - AbicolDental</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 
         <link rel="stylesheet" href="../favicon.ico" type="icono"> <!-- Asi se coloca un favicom para la pagina de inicio-->
         <!--iconos de fontawesome-->
         <script src="https://kit.fontawesome.com/cbbd236219.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-         <a href="../index.html">
-          <img src="../assets/img/logoabicol.log" alt="logo.dental" width="100" height="100">   <!-- Aca ponemos el logo de la pagina-->
-         </a>
+    <header class="header">
         <nav> 
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./productos.html">Nosotros</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./formacion.html">Sucursales</a></li>
-            </ul>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark"">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"> <img src="../favicon.ico" alt="logo" width="100"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../page/contacto.html">Encontranos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../page/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="../page/productos.html">Implantes</a></li>
+                      <li><a class="dropdown-item" href="../page/productos.html">Protesis</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./page/productos.html">Blanqueamiento</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../page/formacion.html" >Formacion</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
          </nav>
 
     </header>
-    <main>
-        <h1>Formacion - Abicol Dental</h1>
-        <p>Tu sonrisa es lo que nos importa, enamorate de tu sonrisa</p>
-    </main>
+    <main class="container">
+      <h2 class="tiutloformacion pt-5">Formación en la UBA</h2>
+      <p>Micaela y Mirem son dos odontólogas que se formaron en la Universidad de Buenos Aires (UBA), una de las instituciones más prestigiosas de Argentina.</p>
+      <br>
+      <br>
+      <br>
+      <h3>Experiencia en la Facultad de Odontología</h3>
+        <p>Micaela se destacó durante su carrera universitaria por su dedicación y habilidades en odontología preventiva, mientras que Mirem se especializó en odontología estética, participando activamente en proyectos de investigación en el área. Ambas obtuvieron una formación integral en la UBA, adquiriendo conocimientos sólidos y habilidades prácticas que las prepararon para su carrera profesional en odontología.</p>
+      
+      <div class="row faculty-photos justify-content-center pt-5">
+          <div class="col-auto">
+              <img class="faculty-photo" src="../assets/img/titulo.odonto.jpeg" alt="Micaela">
+          </div>
+          <div class="col-auto">
+              <img class="faculty-photo" src="../assets/img/titulo.odonto.jpeg" alt="Mirem">
+          </div>
+      </div>
+      <h3 class="pt-3">Certificados de Licencia</h3>
+      <div class="row faculty-certificate justify-content-center pt-5">
+          <div class="col-auto">
+              <img class="certificate" src="../assets/img/certificado.implantologia.jpeg" alt="Certificado de Micaela">
+          </div>
+          <div class="col-auto">
+              <img class="certificate" src="../assets/img/certificado.implantologia.jpeg" alt="Certificado de Mirem">
+          </div>
+      </div>
+  </main>
+    <footer class="footer">
+        <div class="container">
+          <div class="column">
+            <img src="../assets/img/logoabicol.log" alt="logo.dental" width="100" height="100"> 
+          </div>
+          <div class="column">
+            <h4>Mapa</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.831003958249!2d-58.51893192447603!3d-34.60843465774699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb79a5a4e762d%3A0x4d2d9ecb6e0b0ba!2sABICOL%20dental!5e0!3m2!1ses-419!2sar!4v1706664905368!5m2!1ses-419!2sar" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe>
     
+        </div>
+          <div class="column">
+            <h4>Redes Sociales</h4>
+            <ul>
+              <a href="https://www.instagram.com/od.abicol/" target="_blank"><i class="fa-brands fa-instagram fa-4x" ></i></a> 
+              <br>
+              <br>
+              <a class="logowpp" href="wa.me541159484359" target="_blank"><i class="fa-brands fa-whatsapp fa-4x"></i></a>
+            </ul>
+          </div>
+        </div>
+        <div class="mail-signup">
+          <h4>¡Déjanos tu mail!</h4>
+          <form>
+            <input type="email" placeholder="Correo electrónico">
+            <button type="submit">Suscribirse</button>
+          </form>
+        </div>
+        <hr>
+        <br>
+        <p>&copy; 2024 Todos los derechos reservados | diseñado por: santaclaus</p>
     
-    
-     
-    
-    
-    
-    
-    <footer>
-        <section id="casaCentral">
-            <h4>Consultorio:</h4>
-            <!--esto es un mapa, el src tiene un enlace absoluto a un mapa enbebido de google maps-->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.831003958249!2d-58.51893192447603!3d-34.60843465774699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb79a5a4e762d%3A0x4d2d9ecb6e0b0ba!2sABICOL%20dental!5e0!3m2!1ses-419!2sar!4v1706664905368!5m2!1ses-419!2sar" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-        <section id="Contacto">
-            <h4>NOS PONEMOS EN CONTACTO CON VOS!!</h4>
-            <form action="./404.html" method="post">
-                <input type="email" placeholder="ejemplo@ejemplo.com" required id="email" name="email">
-                <input type="submit" value="Suscribirme">
-                <br>
-                <br>
-                <a href="https://www.instagram.com/od.abicol/" target="_blank"><i class="fa-brands fa-instagram"></i></a> <br>
-                <a href="wa.me541159484359" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-
-        <p>&copy; 2021 Todos los derechos reservados | diseñado por: santaclaus</p>
-    </footer>
 </body>
 </html>

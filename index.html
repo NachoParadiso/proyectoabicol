@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="favicon.ico" type="icono"> <!-- Asi se coloca un favicom para la pagina de inicio-->
         <!--iconos de fontawesome-->
         <script src="https://kit.fontawesome.com/cbbd236219.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -24,24 +25,24 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#footer">Encontranos</a>
+                    <a class="nav-link active" aria-current="page" href="./page/contacto.html">Encontranos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="./page/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="./page/productos.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Productos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Implantes</a></li>
-                      <li><a class="dropdown-item" href="#">Protesis</a></li>
+                      <li><a class="dropdown-item" href="./page/productos.html">Implantes</a></li>
+                      <li><a class="dropdown-item" href="./page/productos.html">Protesis</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Blanqueamiento</a></li>
+                      <li><a class="dropdown-item" href="./page/productos.html">Blanqueamiento</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" href="formacion.html" tabindex="-1" aria-disabled="true">Formacion</a>
+                    <a class="nav-link" href="./page/formacion.html" >Formacion</a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -56,36 +57,34 @@
     </header>
     <main>
 
-         
-        <section class="seccionPrincipal">
+        <section class="seccionPrincipal" class="d-none d-flex flex-column aling-items-center">
         <h1>Abicol Dental</h1>
         <br>
         <p class="tusonrisa">Tu sonrisa es lo que nos importa, enamorate de tu sonrisa</p>
-            <a class="encontranosboton" href="#footer"> ENCONTRANOS</a>
+            <a class="encontranosboton"  href="./page/contacto.html"> ENCONTRANOS</a>
         </section>
     </main>
-    <iframe width="100%" height="600" src="https://www.youtube.com/embed/hMd8xLz_cNc?si=Qphgjcki4XNzknmS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+    <iframe width="100%" height="600" src="https://www.youtube.com/embed/mpOZbXGR3nY?si=tTeEWrKAH4e10siG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
   
-  
-<div class="contenedortarjeta">
-    <section class="tarjetas">
-        <h3>Nosotros</h3>
-        <img class="cajita" src="./assets/img/nosotros.avif" alt="fotodelaschicas"> 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore consequatur voluptatum, impedit molestias debitis sapiente laboriosam praesentium delectus fugiat minus tempore dicta dolor ad recusandae cum quod perferendis quisquam?</p>
+  <div class="d-none d-md-block">
+  <div class="contenedortarjeta row">
+     <section class="tarjetas">
+        <h2>Nosotros</h2>
+        <img class="cajita" src="./assets/img/MUJER_ODONTOLOGA_pexels_gustavo_fring_4971540.jpg" alt="fotodelaschicas"> 
+        <p>Con una amplia experiencia en sus respectivas especialidades, Micaela y Mirem se enorgullecen de ofrecer tratamientos de ortodoncia e implantología de alta calidad en un ambiente acogedor y amigable. Nuestro consultorio es un proyecto muy grande que tenemos desde el primer dia que arrancamos a cursar, nos enorgullece que la gente le pierda el miedo al odontologo. No pierdas el tiempo te esperamos en Abicol Dental.</p>
+      </section>
+     <section class="tarjetas">
+        <h2>Productos</h2>
+        <img class="cajita" src="./assets/img/protesis-fija-sobre-implantes.png" alt="fotoproducto"> 
+        <p>En nuestra clínica, nos enfocamos en mejorar la salud y la estética dental. Ofrecemos servicios de prótesis, implantes y blanqueamientos, con soluciones personalizadas para resultados excepcionales. Nuestro equipo altamente capacitado y tecnología de vanguardia garantizan una atención de calidad y una experiencia cómoda para cada paciente. Nos comprometemos a brindarle una sonrisa radiante que refleje su salud y confianza.</p>
+      </section>
+     <section class="tarjetas">
+        <h2>Formacion</h2>
+        <img class="cajita" src="./assets/img/odontologia_uba_0.jpg" alt="fotofacultativa"> 
+        <p>Nuestra formación en la Universidad de Buenos Aires (UBA) nos ha dotado de conocimientos sólidos y habilidades especializadas en todas las áreas de la odontología. Esto nos permite ofrecer servicios dentales de alta calidad y atención personalizada a nuestros pacientes. Nos enorgullece aplicar los estándares de excelencia que aprendimos en la UBA para mejorar la salud bucal y la sonrisa de quienes confían en nosotros.</p>
+  </div>
     </section>
-    <section class="tarjetas">
-        <h3>Productos</h3>
-        <img class="cajita" src="./assets/img/nosotros.avif" alt="fotoproducto"> 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore consequatur voluptatum, impedit molestias debitis sapiente laboriosam praesentium delectus fugiat minus tempore dicta dolor ad recusandae cum quod perferendis quisquam?</p>
-
-    </section>
-    <section class="tarjetas">
-        <h3>Formacion</h3>
-        <img class="cajita" src="./assets/img/nosotros.avif" alt="fotofacultativa"> 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore consequatur voluptatum, impedit molestias debitis sapiente laboriosam praesentium delectus fugiat minus tempore dicta dolor ad recusandae cum quod perferendis quisquam?</p>
-
-    </section>
-</div> 
+  </div> 
     
 <footer class="footer">
     <div class="container">
@@ -97,11 +96,13 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.831003958249!2d-58.51893192447603!3d-34.60843465774699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb79a5a4e762d%3A0x4d2d9ecb6e0b0ba!2sABICOL%20dental!5e0!3m2!1ses-419!2sar!4v1706664905368!5m2!1ses-419!2sar" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" loading="lazy"></iframe>
 
     </div>
-      <div class="column">
+      <div class="columnredes">
         <h4>Redes Sociales</h4>
         <ul>
-            <a href="https://www.instagram.com/od.abicol/" target="_blank"><i class="fa-brands fa-instagram"></i></a> <br>
-            <a class="logowpp" href="wa.me541159484359" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/od.abicol/" target="_blank"><i class="fa-brands fa-instagram fa-4x" ></i></a> 
+            <br>
+            <br>
+            <a class="logowpp" href="wa.me541159484359" target="_blank"><i class="fa-brands fa-whatsapp fa-4x"></i></a>
         </ul>
       </div>
     </div>
