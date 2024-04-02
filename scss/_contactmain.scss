@@ -1,0 +1,56 @@
+.contact-main {
+    text-align: center;
+}
+
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-title {
+    color: $color-titsec;
+}
+
+.contact-section p {
+    color: $color-titsec;
+    margin-bottom: 10px;
+}
+
+.contact-section p i {
+    margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+    .contact-section .col-md-12 {
+        width: 100%;
+    }
+}
+
+.urgencias-section {
+    padding: 50px 0;
+}
+
+.contact-title,
+.urgencias-title {
+    color: $color-titsec;
+}
+
+.subtitulo {
+    color: $color-titsec;
+    margin-top: $treintapx;
+}
+
+.descripcion {
+    color: $color-titsec;
+    margin-bottom: $veintepx;
+}
+
+.descripcion img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .descripcion img {
+        margin-top: $veintepx;
+    }
+}

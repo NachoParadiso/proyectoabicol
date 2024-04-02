@@ -1,0 +1,33 @@
+.seccionPrincipal {
+    background-image: url(../assets/img/headerfondo.jpeg);
+    height: 600px;
+    background-size: cover;
+    
+    }
+    .tusonrisa {
+        animation: tusonrisa 4s infinite ease-in-out;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 2px;
+    }
+    .encontranosboton {
+        padding: 15px 30px;
+        font-size: map-get($sizes, dieciocho);
+        background-color: #007bff00;
+        color: #000000;
+        border: black solid 2px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    .encontranosboton:hover {
+        background-color: #0057b300;
+    }
+    .main-background {
+        padding: 80px 0;
+    } }

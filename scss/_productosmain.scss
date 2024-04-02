@@ -1,0 +1,32 @@
+.productos-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.productos-title {
+    color: $color-titsec;
+}
+
+.contact-form {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.contact-title {
+    color: $color-titsec;
+    margin-bottom: 20px;
+}
+
+.carousel-container {
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px; /* Agregamos espacio superior para separarlo del formulario */
+}
+
+.carousel-item img {
+    max-height: 300px; /* Limitamos la altura de las imágenes del carrusel */
+    object-fit: cover; /* Ajustamos las imágenes para que cubran todo el espacio */
+}
+

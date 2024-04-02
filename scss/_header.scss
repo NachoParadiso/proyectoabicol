@@ -1,0 +1,21 @@
+.header {
+    background-color: $color-titsec;
+    position: sticky;
+    top: 0; }
+    .listaNav {
+        list-style: none;
+    }
+    .listaNav .listaLink {
+        text-decoration: none;
+        color: rgb(117, 114, 114);
+        display: flex;
+        justify-content: space-between;
+        margin-left: 85%;
+        text-align: right;
+    }
+    .logo {
+        width: 100px;
+        left: 50%;
+        top: 10px; }
+    
+    
